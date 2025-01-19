@@ -1,3 +1,0 @@
-#!/bin/bash
-# Script de configuración del servidor casero
-# Aquí se incluyen los comandos y configuraciones necesarios...
