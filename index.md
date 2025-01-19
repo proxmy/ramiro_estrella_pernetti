@@ -9,6 +9,17 @@ Bienvenido a mi sitio web profesional. Soy técnico de redes y microinformática
 
 ---
 
+### 🌐 Encuéntrame
+
+<a href="https://www.linkedin.com/in/ramiropernetti" target="_blank">
+  <img src="{{ site.baseurl }}/assets/images/linkedin-icon.png" alt="LinkedIn" style="width: 30px; margin-right: 10px;">
+</a>
+<a href="mailto:tomasestrellaramiro@gmail.com">
+  <img src="{{ site.baseurl }}/assets/images/email-icon.png" alt="Correo" style="width: 30px;">
+</a>
+
+---
+
 ### 🚀 Proyectos Destacados
 
 1. **Servidor Casero con Nextcloud en Raspberry Pi 4**
