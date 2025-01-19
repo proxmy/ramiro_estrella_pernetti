@@ -1,12 +1,10 @@
 title: "Ramiro Estrella Pernetti"
 description: "Proyectos, tecnología y blog personal"
-baseurl: "/ramiro_estrella_pernetti" # Subdirectorio del repositorio
-url: "https://proxmy.github.io" # URL principal del sitio
+baseurl: "/ramiro_estrella_pernetti" # Ruta relativa al repositorio
+url: "https://proxmy.github.io" # URL de tu sitio
 theme: minima
 plugins:
   - jekyll-feed
 markdown: kramdown
 author:
   name: "Ramiro Estrella Pernetti"
-  email: "tomasestrellaramiro@gmail.com"
-
