@@ -1,8 +1,8 @@
 /* General Styles */
 body {
   font-family: 'Roboto', sans-serif;
-  color: #34495e;
-  background-color: #ecf0f1;
+  color: #2C3E50; /* Texto en gris oscuro */
+  background-color: #F4F4F9; /* Fondo en gris claro */
   line-height: 1.6;
   margin: 0 auto;
   max-width: 900px;
@@ -12,7 +12,7 @@ body {
 /* Header */
 header {
   text-align: center;
-  background-color: #2ecc71;
+  background-color: #16A085; /* Verde oscuro */
   color: white;
   padding: 30px 0;
   border-radius: 10px;
@@ -40,7 +40,7 @@ header p {
 
 header nav a {
   margin: 0 15px;
-  color: white;
+  color: #F7DC6F; /* Amarillo */
   text-decoration: none;
   font-weight: bold;
 }
@@ -54,9 +54,13 @@ footer {
   text-align: center;
   margin-top: 30px;
   padding: 20px;
-  background-color: #34495e;
+  background-color: #16A085; /* Verde oscuro */
   color: white;
   border-radius: 10px;
+}
+
+footer div {
+  margin-top: 10px;
 }
 
 footer a img {
@@ -69,20 +73,10 @@ footer a img:hover {
   transform: scale(1.2);
 }
 
-footer a {
-  color: #e67e22;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
 /* Buttons */
 a.button {
   display: inline-block;
-  background-color: #e67e22;
+  background-color: #E67E22; /* Naranja */
   color: white;
   padding: 10px 15px;
   border-radius: 5px;
@@ -92,7 +86,7 @@ a.button {
 }
 
 a.button:hover {
-  background-color: #d35400;
+  background-color: #D35400; /* Naranja más oscuro */
   transform: translateY(-3px);
 }
 
