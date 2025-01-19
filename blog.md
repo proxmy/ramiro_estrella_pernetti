@@ -1,11 +1,18 @@
 ---
-layout: page
+layout: default
 title: "Blog"
-permalink: /blog/
 ---
+
+## Blog
 
 ### Publicaciones del Blog
 
-{% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }}) - _{{ post.date | date: "%d de %B de %Y" }}_
-{% endfor %}
+<div class="blog-post">
+  <h2><a href="/blog/servidor-casero-nextcloud/">🔧 Inicio del Proyecto: Configuración de un Servidor Casero con Nextcloud</a></h2>
+  <p>Publicado el 19 de enero de 2025</p>
+</div>
+
+<div class="blog-post">
+  <h2><a href="/blog/infraestructura-monitoreo-redes/">🚀 Infraestructura de Monitoreo Empresarial</a></h2>
+  <p>Publicado el 15 de enero de 2025</p>
+</div>
