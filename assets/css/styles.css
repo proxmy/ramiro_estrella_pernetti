@@ -101,3 +101,20 @@ a.button:hover {
     margin: 0 10px;
   }
 }
+
+/* Animación suave en botones */
+a.button {
+  display: inline-block;
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+a.button:hover {
+  transform: translateY(-3px);
+  background-color: #0056b3;
+}
