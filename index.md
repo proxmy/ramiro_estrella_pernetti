@@ -3,4 +3,26 @@ layout: home
 title: "Inicio"
 ---
 
-¡Bienvenido a mi sitio web! Aquí encontrarás información sobre mis habilidades, experiencia, y proyectos. Explora las secciones para conocer más sobre mí.
+### ¡Hola, soy Ramiro Estrella Pernetti!
+
+Bienvenido a mi sitio web profesional. Soy técnico de redes y microinformática, apasionado por la tecnología y con experiencia en administración de servidores, gestión de infraestructuras y desarrollo de proyectos IT.
+
+---
+
+### 🚀 Proyectos Destacados
+
+1. **Servidor Casero con Nextcloud en Raspberry Pi 4**
+   - Implementación de un servidor privado utilizando Docker y monitoreo con Prometheus y Grafana.
+   - [Leer más](/blog/servidor-casero-nextcloud/)
+
+2. **Infraestructura de Monitoreo para Redes Empresariales**
+   - Creación de una solución escalable con VMware y herramientas de análisis.
+   - [Leer más](/blog/infraestructura-monitoreo-redes/)
+
+---
+
+### 📚 Últimas Publicaciones
+
+{% for post in site.posts limit:3 %}
+- [{{ post.title }}]({{ post.url }}) - _{{ post.date | date: "%d de %B de %Y" }}_
+{% endfor %}
