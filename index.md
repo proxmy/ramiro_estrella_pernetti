@@ -3,4 +3,4 @@ layout: home
 title: "Inicio"
 ---
 
-¡Bienvenido a mi blog! Aquí comparto mis proyectos y aprendizajes sobre tecnología.
+¡Bienvenido a mi sitio web! Aquí encontrarás información sobre mis habilidades, experiencia, y proyectos. Explora las secciones para conocer más sobre mí.
