@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mí - {{ site.title }}</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Sobre mí</h1>
+    <nav>
+      <a href="/">Inicio</a>
+    </nav>
+  </header>
+
+  <main>
+    <p>Soy Ramiro Estrella Pernetti, apasionado de la tecnología, redes y proyectos de software.</p>
+    <p>En este blog, comparto mis proyectos y aprendizajes relacionados con el mundo IT.</p>
+  </main>
+
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}</p>
+  </footer>
+</body>
+</html>
