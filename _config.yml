@@ -1,6 +1,7 @@
 title: "Ramiro Estrella Pernetti"
 description: "Experto en redes, microinformática y administración de servidores. Descubre mis proyectos y experiencia profesional."
-baseurl: "/ramiro_estrella_pernetti"
+permalink: pretty
+baseurl: "/ramiro_estrella_pernetti" # Si tu repositorio se llama "ramiro_estrella_pernetti"
 url: "https://proxmy.github.io"
 theme: minima
 plugins:
