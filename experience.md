@@ -12,7 +12,7 @@ permalink: /experience/
 - Gestión de usuarios en M365 y Active Directory
 - Documentación técnica y gestión de ticketing
 
-#### **Circet SL** (07-2021 - 09-2021)
+#### **Circet SL** (07-2022 - 09-2022)
 - Instalación y mantenimiento de equipos de telecomunicaciones
 - Gestión de redes estructuradas y cableado
 
