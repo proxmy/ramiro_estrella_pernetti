@@ -10,6 +10,7 @@
 </head>
 <body>
   <header>
+    <img src="{{ site.baseurl }}/assets/images/profile.jpg" alt="Foto de perfil">
     <h1>{{ site.title }}</h1>
     <p>{{ site.description }}</p>
     <nav>
@@ -28,30 +29,16 @@
   </main>
 
   <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} <strong>{{ site.author.name }}</strong></p>
+    <p>Conéctate conmigo:</p>
     <div>
-      <p>&copy; {{ site.time | date: "%Y" }} <strong>{{ site.author.name }}</strong></p>
-      <p>Conéctate conmigo:</p>
-      <div>
-        <a href="https://www.linkedin.com/in/ramiropernetti" target="_blank">
-          <img src="{{ site.baseurl }}/assets/images/linkedin-icon.png" alt="LinkedIn">
-        </a>
-        <a href="mailto:tomasestrellaramiro@gmail.com">
-          <img src="{{ site.baseurl }}/assets/images/email-icon.png" alt="Correo">
-        </a>
-      </div>
+      <a href="https://www.linkedin.com/in/ramiropernetti" target="_blank">
+        <img src="{{ site.baseurl }}/assets/images/linkedin-icon.png" alt="LinkedIn">
+      </a>
+      <a href="mailto:tomasestrellaramiro@gmail.com">
+        <img src="{{ site.baseurl }}/assets/images/email-icon.png" alt="Correo">
+      </a>
     </div>
   </footer>
 </body>
 </html>
-<footer>
-  <p>&copy; {{ site.time | date: "%Y" }} <strong>{{ site.author.name }}</strong></p>
-  <p>Encuéntrame en:</p>
-  <div>
-    <a href="https://www.linkedin.com/in/ramiropernetti" target="_blank">
-      <img src="{{ site.baseurl }}/assets/images/linkedin-icon.png" alt="LinkedIn">
-    </a>
-    <a href="mailto:tomasestrellaramiro@gmail.com">
-      <img src="{{ site.baseurl }}/assets/images/email-icon.png" alt="Correo">
-    </a>
-  </div>
-</footer>
