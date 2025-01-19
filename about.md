@@ -4,6 +4,6 @@ title: "Sobre mí"
 permalink: /about/
 ---
 
-Soy Ramiro Estrella Pernetti, apasionado por la tecnología, las redes y los proyectos IT.
+Soy Ramiro Estrella Pernetti, técnico en redes y microinformática con experiencia en administración de servidores, gestión de infraestructuras y soporte técnico.
 
-En este blog, comparto mis experiencias y aprendizajes relacionados con tecnología y desarrollo personal.
+Me apasiona la tecnología y disfruto compartiendo conocimientos a través de mis proyectos y aprendizajes.
