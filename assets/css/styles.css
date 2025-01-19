@@ -14,11 +14,13 @@ header {
 header .profile img {
   width: 150px;
   border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 header nav a {
   margin: 0 10px;
   text-decoration: none;
+  color: #007BFF;
 }
 
 main ul {
@@ -33,4 +35,5 @@ main ul li {
 footer {
   text-align: center;
   margin-top: 30px;
+  color: #666;
 }
