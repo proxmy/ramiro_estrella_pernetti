@@ -1,19 +1,14 @@
----
-layout: home
-title: "Inicio"
----
-
-### 🚀 Proyectos Destacados
-
-<div style="display: flex; flex-wrap: wrap; gap: 20px;">
-  <div style="flex: 1; min-width: 250px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
-    <h3>Servidor Casero con Nextcloud</h3>
-    <p>Implementación de un servidor privado utilizando Docker y monitoreo con Prometheus y Grafana.</p>
-    <a href="/blog/servidor-casero-nextcloud/" class="button">Leer más</a>
-  </div>
-  <div style="flex: 1; min-width: 250px; border: 1px solid #ddd; border-radius: 10px; padding: 15px;">
-    <h3>Infraestructura de Monitoreo</h3>
-    <p>Creación de una solución escalable con VMware y herramientas de análisis.</p>
-    <a href="/blog/infraestructura-monitoreo-redes/" class="button">Leer más</a>
-  </div>
-</div>
+<header>
+  <img src="{{ site.baseurl }}/assets/images/profile.jpg" alt="Foto de perfil">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}</p>
+  <nav>
+    <a href="{{ site.baseurl }}/">Inicio</a>
+    <a href="{{ site.baseurl }}/about/">Sobre mí</a>
+    <a href="{{ site.baseurl }}/skills/">Habilidades</a>
+    <a href="{{ site.baseurl }}/experience/">Experiencia</a>
+    <a href="{{ site.baseurl }}/education/">Educación</a>
+    <a href="{{ site.baseurl }}/certifications/">Certificaciones</a>
+    <a href="{{ site.baseurl }}/blog/">Blog</a>
+  </nav>
+</header>
