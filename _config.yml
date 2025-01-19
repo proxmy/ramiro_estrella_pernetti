@@ -1,0 +1,11 @@
+title: "Ramiro Estrella Pernetti"
+description: "Proyectos, tecnología y blog personal"
+baseurl: "" # Deja vacío si es el repositorio principal
+url: "https://tuusuario.github.io" # Cambia por tu URL de GitHub Pages
+markdown: kramdown
+plugins:
+  - jekyll-feed
+theme: minima # Puedes cambiar el tema si lo deseas
+author:
+  name: "Ramiro Estrella Pernetti"
+  email: "tomasestrellaramiro@gmail.com"
